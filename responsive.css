@@ -224,7 +224,7 @@
         height: 90vh;
     }
     .showcase::after {
-        height: 70vh;
+        height: 90vh;
         box-shadow: 40px 50px 200px black inset;
     }
     .showcase-top {
@@ -242,7 +242,7 @@
     }
     /* Showcase Content */
     .showcase-content {
-        margin: 120px 5%;
+        margin: 100px 5%;
         padding: 20px 4%;
     }
     .showcase-content h1 {
