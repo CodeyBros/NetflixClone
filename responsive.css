@@ -221,7 +221,7 @@
 @media (max-width: 600px) {
     /* Showcase Top */
     .showcase {
-        height: 70vh;
+        height: 90vh;
     }
     .showcase::after {
         height: 70vh;
