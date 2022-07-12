@@ -1,0 +1,281 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+h1, h2, h3, h4 {
+    color: white;
+}
+
+
+
+/* Utility Classes */
+:root {
+    /* primary color */
+    --red: #e50914;
+    --bordergrey: #222;
+    --faqgrey: #333333;
+}
+.btn {
+    background-color: var(--red);
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.btn-rounded {
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-xl {
+    height: 100%;
+    width: 30%;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-align: center;
+}
+.tab-border {
+    border-top: 8px solid var(--bordergrey);
+}
+ion-icon {
+    --ionicon-stroke-weight: 5px;
+    font-size: 30px;
+  }
+
+
+/* ShowCase */
+.showcase {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/NG-en-20220627-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.showcase::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+/* Showcase Top */
+.showcase-top {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 45px;
+    position: relative;
+    z-index: 2;
+}
+.showcase-top img {
+    width: 150px;
+    height: 100%;
+    margin-top: 10px;
+}
+
+/* Showcase Content */
+.showcase-content {
+    display: flex;
+    flex-direction: column;   
+    text-align: center;
+    margin: auto;
+    max-height: 100%;
+    margin: 120px 150px;
+    padding: 0 130px;
+    position: absolute;
+    z-index: 2;
+}
+.showcase-content h1 {
+    font-size: 50px;
+    margin: 0 10px;
+    margin-bottom: 16px;
+}
+.showcase-content h3 {
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+.showcase-content p {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+/* Register */
+.showcase-reg {
+    padding: 15px;
+}
+.showcase-reg-info {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.showcase-reg-info input {
+    height: 100%;
+    width: 70%;
+    margin-right: 2px;
+    padding: 10px 20px;
+}
+
+
+/* Tabs */
+.tab-item {
+    padding: 40px 40px;
+    display: flex;
+    align-items: center;
+}
+
+#tab-1 h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+#tab-1 p {
+    font-size: 26px;
+    padding: 20px;
+}
+#tab-1 img {
+    height: 330px;
+}
+
+#tab-2 h1 {
+    font-size: 50px;
+    padding: 30px;
+}
+#tab-2 p {
+    font-size: 26px;
+    padding: 30px;
+}
+#tab-2 img {
+    height: 330px;
+}
+
+#tab-3 h1 {
+    font-size: 50px;
+    padding: 20px;
+    width: 60%;
+}
+#tab-3 p {
+    font-size: 26px;
+    padding: 20px;
+    width: 60%;
+}
+
+#tab-4 h1 {
+    font-size: 50px;
+    padding: 20px;
+}
+#tab-4 p {
+    font-size: 26px;
+    padding: 20px;
+    margin-right: 40px;
+}
+#tab-4 img {
+    height: 330px;
+}
+
+
+/* FAQ */
+#faq {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 45px;
+    justify-content: center;
+    align-items: center;
+}
+#faq h1 {
+    font-size: 50px;
+    margin: 35px auto;
+}
+#faq p {
+    font-size: 26px;
+    margin: 20px 40px;
+}
+
+.faq-question {
+    background-color: var(--faqgrey);
+    margin-bottom: 8px;
+    width: 70%;
+}
+.faq-question-resp {
+    border-top: 1.5px solid black;
+}
+.faq-head  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5%;
+}
+.d-none {
+    display: none;
+}
+
+
+#ready-to-watch {
+    margin: 25px auto;
+}
+#ready-to-watch p {
+    font-size: 20px;
+}
+.RTW-getstarted {
+    height: 60px;
+    display: flex;
+}
+#ready-to-watch input {
+    height: 100%;
+    width: 70%;
+}
+#ready-to-watch button {
+    height: 100%;
+    width: 30%;
+    font-size: 25px;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 5% 15%;   
+    color: grey;
+}
+footer .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 30px 0;
+}
+footer a {
+    color: grey;
+}
+.links a {
+    padding: 10px 0;
+}
+footer a:hover {
+    text-decoration: underline;
+}
