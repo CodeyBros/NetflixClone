@@ -1,0 +1,408 @@
+@media (max-width: 1100px) {
+    /* Showcase Top */
+    .showcase-top {
+        height: 60px;
+        margin: 0 40px;
+    }
+    .showcase-top img {
+        width: 130px;
+    }
+    .btn {
+        padding: 6px 12px;
+    }
+    /* Showcase Content */
+    .showcase-content {
+        margin: 0 auto;
+        margin: 120px 110px;
+        padding: 20px 90px;
+    }
+    .showcase-content h1 {
+        font-size: 45px;
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    .showcase-content h3 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .showcase-content p {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    /* Register */
+    .showcase-reg-info {
+        height: 60px;
+    }
+    .showcase-reg-info input {
+        padding: 10px 15px;
+    }
+    .btn-xl {
+        padding: 4px 8px;
+        font-size: 20px;
+    }
+    ion-icon {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 950px) {
+    /* Showcase Top */
+    .showcase {
+        height: 70vh;
+    }
+    .showcase::after {
+        height: 70vh;
+    }
+    .showcase-top {
+        height: 55px;
+        margin: 0 35px;
+    }
+    .showcase-top img {
+        width: 110px;
+    }
+    .btn {
+        padding: 5px 8px;
+    }
+    .btn-rounded {
+        height: 30px;
+    }
+    /* Showcase Content */
+    .showcase-content {
+        margin: 0 auto;
+        margin: 130px 8%;
+        padding: 20px 6%;
+    }
+    .showcase-content h1 {
+        font-size: 45px;
+        margin: 0;
+        margin-bottom: 18px;
+    }
+    .showcase-content h3 {
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    .showcase-content p {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+    /* Register */
+    .showcase-reg-info {
+        height: 120px;
+        flex-direction: column;
+    }
+    .showcase-reg-info input {
+        padding: 8px 15px;
+        height: 65%;
+        width: 110%;
+        margin-bottom: 12px;
+    }
+    .btn-xl {
+        padding: 8px 6px;
+        font-size: 18px;
+        height: 35%;
+    }
+    ion-icon {
+        font-size: 20px;
+    }
+
+    /* Tab */
+    .tab-item {
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #tab-1 h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+    #tab-1 p {
+        font-size: 26px;
+        padding: 20px;
+    }
+    #tab-1 img {
+        height: 300px;
+    }
+    
+    #tab-2 h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+    #tab-2 p {
+        font-size: 22px;
+        padding: 20px;
+    }
+    #tab-2 img {
+        height: 300px;
+    }
+    
+    #tab-3 h1 {
+        font-size: 40px;
+        padding: 20px;
+        width: 60%;
+    }
+    #tab-3 p {
+        font-size: 22px;
+        padding: 20px;
+        width: 60%;
+    }
+    
+    #tab-4 h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+    #tab-4 p {
+        font-size: 22px;
+        padding: 20px;
+        margin-right: 40px;
+    }
+    #tab-4 img {
+        height: 300px;
+    }
+
+    /* FAQ */
+    #faq {
+        padding: 40px 25px;
+        text-align: center;
+    }
+    #faq h1 {
+        font-size: 40px;
+    }
+    #faq p {
+        font-size: 22px;
+        margin: 20px 20px;
+    }
+    .faq-question {
+        width: 90%;
+    }
+    .faq-question ion-icon {
+        font-size: 35px;
+    }
+
+    #ready-to-watch p {
+        font-size: 25px;
+        width: 70%;
+        margin: 10px auto;
+    }
+    .RTW-getstarted {
+        display: block;
+    }
+    #ready-to-watch input {
+        height: 100%;
+        width: 80%;
+    }
+    #ready-to-watch button {
+        height: 70%;
+        width: 25%;
+        font-size: 20px;
+        margin: 8px auto;
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 50px;
+        padding: 5% 6%;
+    }
+    footer .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 30px 0;
+    }
+    .links a {
+        padding: 10px 0;
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    /* Showcase Top */
+    .showcase {
+        height: 70vh;
+    }
+    .showcase::after {
+        height: 70vh;
+        box-shadow: 40px 50px 200px black inset;
+    }
+    .showcase-top {
+        height: 50px;
+        margin: 0 30px;
+    }
+    .showcase-top img {
+        width: 95px;
+    }
+    .btn {
+        padding: 4px 6px;
+    }
+    .btn-rounded {
+        height: 28px;
+    }
+    /* Showcase Content */
+    .showcase-content {
+        margin: 120px 5%;
+        padding: 20px 4%;
+    }
+    .showcase-content h1 {
+        font-size: 35px;
+        margin-bottom: 16px;
+    }
+    .showcase-content h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .showcase-content p {
+        font-size: 18px;
+        margin-bottom: 16px;
+    }
+    /* Register */
+    .showcase-reg-info {
+        height: 90px;
+        flex-direction: column;
+    }
+    .showcase-reg-info input {
+        padding: 6px 8px;
+        height: 65%;
+        width: 110%;
+        margin-bottom: 10px;
+    }
+    .btn-xl {
+        padding: 8px 6px;
+        font-size: 12px;
+        height: 40%;
+    }
+    ion-icon {
+        font-size: 18px;
+    }
+
+    /* Tab */
+    
+    #tab-1 h1 {
+        font-size: 35px;
+        padding: 12px;
+    }
+    #tab-1 p {
+        font-size: 22px;
+        padding: 12px;
+    }
+    #tab-1 img {
+        height: 270px;
+    }
+    
+    #tab-2 h1 {
+        font-size: 35px;
+        padding: 12px;
+    }
+    #tab-2 p {
+        font-size: 22px;
+        padding: 12px;
+    }
+    #tab-2 img {
+        height: 270px;
+    }
+    
+    #tab-3 h1 {
+        font-size: 35px;
+        padding: 12px;
+        width: 100%;
+    }
+    #tab-3 p {
+        font-size: 18px;
+        padding: 12px;
+        width: 100%;
+    }
+    
+    #tab-4 h1 {
+        font-size: 35px;
+        padding: 12px;
+    }
+    #tab-4 p {
+        font-size: 22px;
+        padding: 12px;
+        margin-right: 25px;
+    }
+    #tab-4 img {
+        height: 270px;
+    }
+
+    /* FAQ */
+    #faq {
+        padding: 40px 0;
+        text-align: center;
+    }
+    #faq h1 {
+        font-size: 28px;
+    }
+    #faq p {
+        font-size: 20px;
+    }
+    .faq-question {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .faq-question ion-icon {
+        font-size: 30px;
+    }
+
+    #ready-to-watch p {
+        font-size: 18px;
+        width: 80%;
+        margin: 10px auto;
+    }
+    .RTW-getstarted {
+        display: block;
+    }
+    #ready-to-watch input {
+        height: 100%;
+        width: 90%;
+    }
+    #ready-to-watch button {
+        height: 75%;
+        width: 30%;
+        font-size: 18px;
+        margin: 8px auto;
+    }
+    /* Footer */
+    footer {
+        margin-top: 50px;
+        padding: 5% 5%;
+    }
+    footer .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px 0;
+    }
+    .links a {
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .showcase {
+        height: 85vh;
+    }
+    .showcase::after {
+        height: 85vh;
+    }   
+    /* Showcase Content */
+    .showcase-content {
+        margin: 100px 5%;
+        padding: 15px 4%;
+    }
+    .showcase-content h1 {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .showcase-content h3 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .showcase-content p {
+        font-size: 17px;
+        margin-bottom: 16px;
+    }
+}
